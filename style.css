@@ -3,9 +3,8 @@
   margin: 0;
   font-family: sans-serif;
 }
-
-body {
-  background: url("./images/cyrus-crossan-ZqsY740eAOo-unsplash.jpg") no-repeat;
+/*sign-up*/
+body .Sign-up {
   background-size: cover;
   position: absolute;
   top: 50%;
