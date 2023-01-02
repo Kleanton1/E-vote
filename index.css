@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'spartan',sans-serif;
 }
+.section-p1{
+    padding: 40px 80px;
+}
 body{
     width: 100%;
 }
@@ -14,6 +17,7 @@ body{
     padding: 20px 10px;
     background-color: #87CEEB;
     box-shadow: 0 5px 15px rgba(43, 58, 80, 0.06);
+    position: fixed;
 }
 #navbar{
     display: flex;
@@ -45,5 +49,37 @@ body{
     position: absolute;
     bottom: -4px;
     left: 20px;
+}
+/*company page*/
+#feature {
+    text-align: center;
+}
+#feature .fa-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 0;
+    flex-wrap:inherit;
 
+}
+#feature .pro{
+    width: 40%;
+    min-width: 350px;
+    padding: 12px 10px;
+    border: 1px solid #87CEEB;
+}
+#feature.pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+    border: 1px solid;
+    outline: none;
+    transition: o.2s;
 }
