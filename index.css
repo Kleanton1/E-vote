@@ -1,5 +1,5 @@
 *{
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'spartan',sans-serif;
@@ -92,12 +92,19 @@ body .Sign-up {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #form {
-    
-    background:rgba(74, 99, 75, 0.5);
+
+  .Sign-up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  form .reg{
+    background: rgba(47, 77, 49, 0.5);
     width: 250px;
     height: 300px;
-    padding: 75px 50px;
+    padding: 75px 40px;
   }
   .Sign-up h1 {
     font-size: 40px;
