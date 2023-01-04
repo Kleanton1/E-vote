@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+  }
+    
+  .sign-up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  
+  form{
+    background:rgba(74, 99, 75, 0.5);
+    width: 250px;
+    height: 350px;
+    padding: 75px 50px;
+  }
+  .sign-up h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .sign-up p{
+    font-size: 20px;
+    margin: 5px;
+  }
+  
+  .sign-up input{
+    font-size: 16px;
+    padding: 4px 4px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .sign-up button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .sign-up button:hover{
+    color: red;
+  }
+  
+  /*sign-in*/
+  body .bg{
+    background: no-repeat;
+    background-size: cover;
+  }
+  
+  .sign-in{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+  }
+  
+  form .member{
+    background:rgba(74, 99, 75, 0.5);
+    width: 150px;
+    height: 200px;
+    padding: 75px 50px;
+  }
+  
+  .sign-in h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .sign-in p{
+    font-size: 20px;
+    margin: 15px;
+  }
+  
+  .sign-in input{
+    font-size: 16px;
+    padding: 4px 4px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .sign-in button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .sign-in button:hover{
+    color: red;
+  }
