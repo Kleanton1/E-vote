@@ -127,4 +127,41 @@ body{
     outline: none;
     transition: o.2s;
 }
-/*staff voting*/ 
+/*sign page*/
+  .sign-in{
+    background-color:rgba(74, 99, 75, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 10px 30px;
+  }
+  .sign-in h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .sign-in p{
+    font-size: 20px;
+    margin: 15px;
+  }
+  .sign-in input{
+    font-size: 16px;
+    padding: 4px 4px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+  }
+  .sign-in button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 10px;
+    border: 0;
+    border-radius: 5px;
+  }
+  .sign-in button:hover{
+    color: red;
+  }
